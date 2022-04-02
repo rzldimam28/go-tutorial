@@ -7,3 +7,4 @@ You can watch it in [**here**](https://www.youtube.com/watch?v=jFfo23yIWac)
 # Project List
 
 - Day 1 : Create a simple web server
+- Day 2 : REST API with Gorilla Mux
