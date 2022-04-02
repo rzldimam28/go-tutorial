@@ -1,0 +1,35 @@
+### GET all movies
+GET http://localhost:3000/movies
+Accept: application/json
+
+### GET specified movie
+GET http://localhost:3000/movies/1
+Accept: application/json
+
+### CREATE a movie
+POST http://localhost:3000/movies
+Accept: application/json
+
+{
+  "title": "Moon Knight",
+  "actor": {
+    "firstname": "Oscar",
+    "lastname": "Isaac"
+  }
+}
+
+### UPDATE movie
+PUT http://localhost:3000/movies/81
+Accept: application/json
+
+{
+  "title": "New Movie",
+  "actor": {
+    "firstname": "John",
+    "lastname": "Doe"
+  }
+}
+
+### DELETE movie
+DELETE http://localhost:3000/movies/81
+Accept: application/application/json
